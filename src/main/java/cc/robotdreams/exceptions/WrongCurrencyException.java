@@ -1,2 +1,5 @@
-package cc.robotdreams.exceptions;public class WrongCurrencyException {
+package cc.robotdreams.exceptions;
+
+public class WrongCurrencyException extends Exception {
+
 }
