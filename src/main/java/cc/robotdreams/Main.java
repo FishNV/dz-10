@@ -27,6 +27,8 @@ public class Main {
             System.err.println("Акаунт не має достатньо коштів");
         } catch (Exception e) {
             System.err.println("Сталася помилка при процесінгу, спробуйте ще раз");
+        } finally {
+            System.out.println("Дякуємо, що скористалися нашим сервісом");
         }
     }
 }
